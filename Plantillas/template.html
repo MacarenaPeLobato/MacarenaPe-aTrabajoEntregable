@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAMILIA PE</title>
+</head>
+<body>
+    <h1>Esta familia esta compuesta por 4 integrantes</h1>
+    Compuesta por: Macarena, Emanuel, Maria y Ruben
+
+    <p style="color:aquamarine"> El integrante de la familia mas chico es: {{integrante1}}</p>
+    <p style="color:blue"> El integrante de la familia mas grande grande es: {{integrante3}}</p>
+
+<h4> Las edades de los integrantes son: </h4>
+<ul>
+    {% for i in edad %}
+        <li> {{ i }} </li>        
+    {% endfor %}
+</ul>
+
+<h4>Para ser mas claros: </h4>
+<p style="color: red"> {{integrante1}} tiene = 26 </p>
+<p style="color: greenyellow"> {{integrante3}} tiene = 64 </p>
+<p style="color: fuchsia"> {{integrante2}} tiene = 64 </p>
+<p style="color: skyblue"> {{integrante4}} tiene = 29 </p>
+
+
+</body>
+</html>
